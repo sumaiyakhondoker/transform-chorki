@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+
+    <style>
+
+        body{
+            margin-left: 90px;
+        }
+.container ,.inner, .box1 ,.box2, .box3, .box4, .box5{
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.container{
+    border: 2px solid blue;
+    background-color: aquamarine;
+    /* transform: skew(-30deg, -20deg); */
+
+}
+.inner{
+    border: 2px solid brown;
+    background-color: rgb(244, 244, 6);
+    transform: rotate(15deg);
+
+}
+
+.box1{
+    background-color: red;
+    border: 2px solid blueviolet;
+    transform: rotate(15deg);
+}
+.box2{
+    background-color: rgb(230, 78, 161);
+    border: 2px solid blueviolet;
+    transform: rotate(15deg);
+}
+.box3{
+    background-color: rgb(188, 210, 29);
+    border: 2px solid blueviolet;
+    transform: rotate(15deg);
+}
+.box4{
+    background-color: rgb(127, 48, 196);
+    border: 2px solid blueviolet;
+    transform: rotate(15deg);
+}
+.box5{
+    background-color: rgb(255, 0, 119);
+    border: 2px solid blueviolet;
+    transform: rotate(15deg);
+}
+.container{
+    align-items: center;
+    text-align: center;
+}
+.container:hover{
+   .container, .inner, .box1,.box2,.box3,.box4{
+        transform: rotate(100deg);
+        transition: 8s;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+    <h2>Explore transform and translate</h2>
+    <!-- .container*3>.inner{Inner $} -->
+    <div class="container">
+        <div class="inner">
+            <div class="box1">
+                <div class="box2">
+                    <div class="box3">
+                        <div class="box4">
+                            <div class="box5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+        
+
+    </div>
+</body>
+</html>
